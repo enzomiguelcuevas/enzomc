@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-size: 500%;
+    
+}
+body{
+    background:  url(../img/14.jpg);
+    background-size: 500%;
+    background-size: cover;
+    background-repeat: no-repeat;
+        font-family: 'Gloria Hallelujah', cursive;
+}
+
+.box {
+    text-align: center;
+    width: 700px;
+    background: rgba( 0, 0, 0, .4);
+    margin: 0 auto;
+    margin-top: 4%;
+    padding: 20px;
+    border-radius: 15px;
+}
+.img-yo {
+    border-radius: 50%;
+    margin-top: 2%;
+}
+
+.box h1 {
+    color: white;
+    font-size: 30px;   
+    letter-spacing: 4px;
+    font-weight: 100;
+    margin: 20px 0 10px;
+}
+
+.box h2 {
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 100;
+    margin: 20px 0 10px;
+}
+
+.box p {
+    font-family: 'Lekton', sans-serif;
+    color: white;
+    font-size: 17px;
+}
+
+.box ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.box ul li {
+    display: inline-block;
+}
+
+.box ul li a {
+    padding: 10px 5px;
+}
+
+.box ul li a img {
+    
+    transition: all 300ms;
+    position: relative;
+}
+
+.box ul li a img:hover {
+    transform: scale(1.5);
+}
+
+.box img {
+    transition: all 300ms;
+    position: relative;
+}
+
+.box img:hover {
+    transform: scale(1.3);
+}
+.audio{ 
+
+width: 0;
+height: 0;
+ 
+}
+.musica{
+    height: 50px;
+    width: 50px;
+}
+.tiktok{
+border-radius: 50%; 
+}
